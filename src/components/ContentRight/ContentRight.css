@@ -1,0 +1,26 @@
+.content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #777777;
+    width: 25%;
+}
+
+.show-all-link {
+    color: #eb2e64;
+    transition: all .2s ease-in-out;
+}
+
+.show-all-link:hover {
+    box-shadow: 0 0 5px black;
+    font-size: 17px;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1024px) {
+    .content-right {
+        margin-top: 30px;
+        width: 100%;
+        flex-direction: row;
+    }
+}

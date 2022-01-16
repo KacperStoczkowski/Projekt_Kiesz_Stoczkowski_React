@@ -1,0 +1,20 @@
+.title {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    font-family: "Open Sans";
+}
+
+.header-title {
+    margin: 0 5% 0 0;
+}
+
+.contact-link {
+    color: #eb2e64;
+}
+
+@media only screen and (max-width: 1024px) {
+    .title {
+        justify-content: center;
+    }
+}

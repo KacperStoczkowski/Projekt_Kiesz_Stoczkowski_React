@@ -1,0 +1,55 @@
+.opinion {
+    background-image: url("../../assets/img/quotes.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 15%;
+    background-color: #ffff;
+    padding: 0 15.5% 2% 15.5%;
+    margin-bottom: 20px;
+    position: relative;
+} 
+
+.name {
+    color: #777777;
+}
+
+.date {
+    color: #acacac
+}
+
+.rank-value {
+    color: #eb2e64;
+    font-size: 130%;
+}
+
+.opinion-body {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    margin-right: 10%;
+}
+
+.name {
+    color: #777777;
+}
+
+.date {
+    color: #acacac
+}
+.rank-value {
+    color: #eb2e64;
+    font-size: 130%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .opinion {
+        margin: 10px;
+        padding: 1% 5%;
+        flex: 2;
+    }
+}

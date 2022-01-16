@@ -1,0 +1,33 @@
+.profile-button {
+    background-color: #ffff;
+    border: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #777777;
+    margin-left: auto;
+    padding: 0 40px;
+    font-family: "Open Sans";
+    cursor: pointer;
+}
+
+.profile-button:hover {
+    background-color: #f4f2f3;
+}
+
+.profile-image {
+    margin-right: 20px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-button {
+        margin: 10px 0 0 0;
+    }
+}

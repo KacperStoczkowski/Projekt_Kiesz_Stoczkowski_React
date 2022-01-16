@@ -1,0 +1,23 @@
+.search-bar {
+    background-color: #f4f2f3;
+    padding-left: 3%;
+    font-size: 1rem;
+    width: 30%;
+    border-radius: 50px;
+    border: none;
+    margin-left: auto;
+    font-family: "Open Sans";
+    transition: 0.5s ease;
+    padding: 15px 2%;
+}
+
+.search-bar:hover {
+    width: 45%;
+}
+
+@media only screen and (max-width: 768px) {
+    .search-bar {
+        margin-left: 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,9 @@
+.workspace {
+    font-family: "Open Sans";
+}
+
+@media only screen and (max-width: 1024px) {
+    .workspace {
+        width: 100%;
+    }
+}

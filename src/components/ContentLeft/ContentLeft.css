@@ -1,0 +1,72 @@
+.content-left {
+    background-color: #ffff;
+    width: 68%;
+    padding: 2% 3% 2% 3%;
+    color: #777777;
+    margin-right: 7%;
+}
+
+.description-line:last-of-type{
+    padding-bottom: 60px;
+    border-bottom: 1px #777777 solid; 
+}
+
+.friends {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 6% 0 0;
+}
+
+.friends-images {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.friends-images .img1 .img2 .img3 .img4{
+    width: 40%;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+}
+
+.img2 {
+    left: 30%;
+}
+
+.img3 {
+    left: 60%;
+}
+
+.img4 {
+    left: 90%;
+}
+
+.benefits {
+    display: flex;
+    justify-items: center;
+    text-decoration: none;
+    list-style-type: 0;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px #777777 solid; 
+}
+
+.benefits-list:first-of-type {
+    margin-right: 0 15% 0 10%;
+}
+
+.benefits-list {
+    list-style-type: none;
+}
+
+.benefit {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .content-left {
+        width: 90%;
+    }
+}

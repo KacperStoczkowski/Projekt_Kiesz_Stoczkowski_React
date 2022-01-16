@@ -1,0 +1,13 @@
+.slider {
+    display: flex;
+}
+
+.slider-img {
+    width: 33.333%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .slider {
+        display: none;
+    }
+}
